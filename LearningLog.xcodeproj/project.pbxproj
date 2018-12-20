@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7487E04121C664790056835A /* EntryDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7487E04021C664790056835A /* EntryDetail.swift */; };
+		74B3652221C55F2E008C8BEF /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3652121C55F2E008C8BEF /* TopicTableViewCell.swift */; };
+		74B3652421C56103008C8BEF /* TopicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B3652321C56103008C8BEF /* TopicTableViewController.swift */; };
 		74BA0BAA21C3C7C600484294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA0BA921C3C7C600484294 /* AppDelegate.swift */; };
-		74BA0BAC21C3C7C600484294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA0BAB21C3C7C600484294 /* ViewController.swift */; };
+		74BA0BAC21C3C7C600484294 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA0BAB21C3C7C600484294 /* EntryViewController.swift */; };
 		74BA0BAF21C3C7C600484294 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BA0BAD21C3C7C600484294 /* Main.storyboard */; };
 		74BA0BB221C3C7C600484294 /* LearningLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74BA0BB021C3C7C600484294 /* LearningLog.xcdatamodeld */; };
 		74BA0BB421C3C7C900484294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BA0BB321C3C7C900484294 /* Assets.xcassets */; };
 		74BA0BB721C3C7C900484294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BA0BB521C3C7C900484294 /* LaunchScreen.storyboard */; };
 		74BA0BC221C3C7C900484294 /* LearningLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA0BC121C3C7C900484294 /* LearningLogTests.swift */; };
+		74BA0BCD21C3D33900484294 /* EntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA0BCC21C3D33900484294 /* EntryTableViewCell.swift */; };
+		74BA0BCF21C3D6C900484294 /* EntryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BA0BCE21C3D6C900484294 /* EntryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7487E04021C664790056835A /* EntryDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetail.swift; sourceTree = "<group>"; };
+		74B3652121C55F2E008C8BEF /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		74B3652321C56103008C8BEF /* TopicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewController.swift; sourceTree = "<group>"; };
 		74BA0BA621C3C7C600484294 /* LearningLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BA0BA921C3C7C600484294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74BA0BAB21C3C7C600484294 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74BA0BAB21C3C7C600484294 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		74BA0BAE21C3C7C600484294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74BA0BB121C3C7C600484294 /* LearningLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LearningLog.xcdatamodel; sourceTree = "<group>"; };
 		74BA0BB321C3C7C900484294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +46,8 @@
 		74BA0BBD21C3C7C900484294 /* LearningLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BA0BC121C3C7C900484294 /* LearningLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningLogTests.swift; sourceTree = "<group>"; };
 		74BA0BC321C3C7C900484294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BA0BCC21C3D33900484294 /* EntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewCell.swift; sourceTree = "<group>"; };
+		74BA0BCE21C3D6C900484294 /* EntryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				74BA0BA921C3C7C600484294 /* AppDelegate.swift */,
-				74BA0BAB21C3C7C600484294 /* ViewController.swift */,
 				74BA0BAD21C3C7C600484294 /* Main.storyboard */,
+				74B3652121C55F2E008C8BEF /* TopicTableViewCell.swift */,
+				74B3652321C56103008C8BEF /* TopicTableViewController.swift */,
+				74BA0BAB21C3C7C600484294 /* EntryViewController.swift */,
+				74BA0BCE21C3D6C900484294 /* EntryTableViewController.swift */,
+				74BA0BCC21C3D33900484294 /* EntryTableViewCell.swift */,
+				7487E04021C664790056835A /* EntryDetail.swift */,
 				74BA0BB321C3C7C900484294 /* Assets.xcassets */,
 				74BA0BB521C3C7C900484294 /* LaunchScreen.storyboard */,
 				74BA0BB821C3C7C900484294 /* Info.plist */,
@@ -200,9 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74BA0BAC21C3C7C600484294 /* ViewController.swift in Sources */,
+				74BA0BCD21C3D33900484294 /* EntryTableViewCell.swift in Sources */,
+				7487E04121C664790056835A /* EntryDetail.swift in Sources */,
+				74BA0BAC21C3C7C600484294 /* EntryViewController.swift in Sources */,
+				74B3652221C55F2E008C8BEF /* TopicTableViewCell.swift in Sources */,
 				74BA0BAA21C3C7C600484294 /* AppDelegate.swift in Sources */,
+				74BA0BCF21C3D6C900484294 /* EntryTableViewController.swift in Sources */,
 				74BA0BB221C3C7C600484294 /* LearningLog.xcdatamodeld in Sources */,
+				74B3652421C56103008C8BEF /* TopicTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
